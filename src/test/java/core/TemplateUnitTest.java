@@ -11,7 +11,7 @@ public class TemplateUnitTest {
      */
    @Test
    public void evaluate() {
-      Template g = new Template("Unit Test");
+      Template g = new Template();
       assertEquals(1, 1);
    }
 }
