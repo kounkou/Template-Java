@@ -6,8 +6,7 @@ evolution of the project.
 
 # Main developers
 If you have any question about the project or anything that comes to your mind,
-please feel free to contact any of us.
-@rajilsaj
+please feel free to contact me.
 I guess mine is @kounkou... ^^
 
 # Contributions
@@ -16,7 +15,7 @@ Here are the steps to follow if you use the command line.
 
 ```shell
 # clone the project
-$ git clone git@github.com:kounkou/Template-Java.git
+$ git clone git@github.com:[github login]/Template-Java.git
 
 # create your dev branch
 $ git branch branch-name-here
