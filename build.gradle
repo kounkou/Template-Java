@@ -1,11 +1,16 @@
 apply plugin: 'java'
 
+configurations { codacy }
+
 dependencies {
      testCompile 'junit:junit:4.12'
+     codacy 'com.github.codacy:codacy-coverage-reporter:-SNAPSHOT'
 }
 
 repositories {
    mavenCentral()
+   maven { url "https://jitpack.io" }
+   maven { url "http://dl.bintray.com/typesafe/maven-releases" }
 }
 
 jar {
