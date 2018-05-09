@@ -1,20 +1,13 @@
-import java.util.Date;
 
+/**
+  This is just a class template for java projects.
+  Template contains a simple constructor method
+ */
 public class Template {
-   public Template(String name) {
-      _name = name;
+   /**
+     This is the Template class constructor.
+     Simple constructor definition
+    */
+   public Template() {
    }
-
-   public String sayHello() {
-
-      int [][][] nums = new int [10][10][10];
-      nums[0][1][0] = 1;
-      System.out.println("num[0][1][0] : " + nums[0][1][0]);
-      Date now = new Date();
-      System.out.println("Hello        : " + now);
-
-      return "Hello, " + _name + "!";
-   }
-
-   private String _name;
 }
