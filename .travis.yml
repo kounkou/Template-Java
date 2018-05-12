@@ -1,0 +1,5 @@
+language: java
+
+addons:
+   apt:
+      update: true
