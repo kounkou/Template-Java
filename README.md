@@ -9,7 +9,12 @@ evolution of the project.
 # Installation
 
 ```shell
-git clone git@github.com:kounkou/Template-Java.git
+$ git clone git@github.com:kounkou/Template-Java.git
+
+# You can compile the application with :
+
+$ ./gradlew tasks dependencies
+$ ./gradlew tasks build
 ```
 or downloading the package zip.
 
