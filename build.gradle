@@ -3,6 +3,7 @@ apply plugin: 'java'
 dependencies {
      testCompile 'junit:junit:4.12'
      testCompile 'org.mockito:mockito-core:1.9.+'
+     compile group: 'com.orientechnologies', name: 'orientdb-core', version: '3.0.4'
 }
 
 repositories {

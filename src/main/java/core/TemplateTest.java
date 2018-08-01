@@ -10,5 +10,6 @@ public class TemplateTest {
    */
    public static void main(String [] args) {
       Template o = new Template();
+      System.out.println(o.getTemplateProp());
    }
 }
